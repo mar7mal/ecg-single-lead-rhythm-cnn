@@ -20,10 +20,10 @@ per-class precision/recall/F1 (not just accuracy), and a multi-seed kernel ablat
 
 ### Part 2 — [extended: +2 rhythms via clinically-motivated merging](02_extended_merged_classes/)
 
-Adding **atrial flutter** and **sinus irregularity** caused a minority-class collapse —
+Adding **atrial flutter** (AF) and **sinus irregularity** or sinus arrhythmia (SA) caused a minority-class collapse —
 on a single lead they are essentially indistinguishable from atrial fibrillation and
 normal sinus rhythm. Rather than forcing impossible distinctions, the look-alikes were
-**merged into clinically-equivalent classes** (`SRSA`, `AFIBAF`). This restores
+**merged into clinically-equivalent classes** (`SRSA (SR+SA)`, `AFIBAF (AFIB+AF)`). This restores
 **macro-F1 ≈ 93.5 %** while raising data coverage from **90.7 % to 98.6 %**, and shows
 that the optimal convolution kernel is **task-dependent** (it shifted from ~51 to ~171
 for the merged task).
