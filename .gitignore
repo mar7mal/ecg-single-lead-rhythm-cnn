@@ -1,0 +1,16 @@
+# Data (not redistributed — see README for download)
+Diagnostics.xlsx
+ECGData/
+*.csv
+
+# Trained models / checkpoints
+*.keras
+*.h5
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Personal / non-repo drafts
+DRAFT_LinkedIn_article.md
