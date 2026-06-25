@@ -109,4 +109,4 @@ Released under the MIT License — see [LICENSE](../LICENSE).
 
 ---
 
-*Author: <YOUR NAME>*
+*Author: Marek Malý*

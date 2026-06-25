@@ -69,7 +69,7 @@ pip install -r ../requirements.txt
 
 Download the **ChapmanECG** dataset and place it next to the notebook:
 `Diagnostics.xlsx` (file name → rhythm label) and the `ECGData/` folder (per-record CSV
-signals). Then open `ECG_1D_CNN_plus_AFIBAF_SRSA_kernel_171.ipynb` and run all cells.
+signals). Then open `ECG_1D_CNN_plus_AFIBAF_SRSA.ipynb` and run all cells.
 
 **Data source:** original ChapmanECG collection on figshare —
 <https://figshare.com/collections/ChapmanECG/4560497>. A larger, merged
@@ -79,7 +79,7 @@ signals). Then open `ECG_1D_CNN_plus_AFIBAF_SRSA_kernel_171.ipynb` and run all c
 ## Files in this folder
 
 ```
-ECG_1D_CNN_plus_AFIBAF_SRSA_kernel_171.ipynb
+ECG_1D_CNN_plus_AFIBAF_SRSA.ipynb
 README.md   # this file
 ```
 (Shared `LICENSE` and `requirements.txt` live in the repository root.)
@@ -107,4 +107,4 @@ Released under the MIT License — see [LICENSE](../LICENSE).
 
 ---
 
-*Author: <YOUR NAME>*
+*Author: Marek Malý*
